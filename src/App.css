@@ -1,0 +1,21 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
