@@ -5,8 +5,7 @@ function Header() {
     <header className="header">
       <input type="text" placeholder="Search products..." />
       <div className="icons">
-        <span>Profile</span>
-        <span>Cart</span>
+      <h1>Chaperone</h1>
       </div>
     </header>
   );
